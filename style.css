@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    background-color:#E9967A;
+    
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 30px;
+    margin: 2.5rem;
+    
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+}
+.yellow{
+    background-color:#d95980;
+}
+.red{
+    background-color: #63aac0;
+}
+.purple{
+    background-color:#819ffa;
+}
+.green{
+    background-color: #f99b45;
+}
+.flash{
+    background-color: white;
+}
+.userflash{
+background-color: aqua;
+}
+h1::after{
+  content:"\1F970"
+}
+h1::before{
+  content:"\1F970"
+}
+#red:hover{
+opacity: 1;
+transform: scale(1.1);
+}
+#yellow:hover{
+opacity: 1;
+transform: scale(1.1);
+}
+#green:hover{
+opacity: 1;
+transform: scale(1.1);
+}
+#purple:hover{
+opacity: 1;
+transform: scale(1.1);
+}
